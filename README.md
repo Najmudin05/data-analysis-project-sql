@@ -20,7 +20,6 @@
   ORDER BY 
       total_order_amount DESC
   LIMIT 3;
-
 ---
 
 ### 2. Calculate Average Order Amount for Each Customer
@@ -37,7 +36,6 @@
       orders o ON o.customer_id = c.customer_id
   GROUP BY 
       c.customer_id;
-
 ---
 
 ### 3. Identify Employees Who Completed More Than 4 Support Tickets
@@ -58,7 +56,6 @@
       e.employee_id
   HAVING 
       COUNT(s.ticket_id) > 4;
-
 ---
 
 ### 4. Identify Products That Have Never Been Ordered
@@ -73,7 +70,6 @@
       orderdetails od ON od.order_id = products.product_id
   WHERE 
       od.order_id IS NULL;
-
 ---
 
 ### 5. Calculate Total Revenue from Product Sales
@@ -84,7 +80,6 @@
       SUM(quantity * unit_price) AS total_revenue
   FROM 
       orderdetails;
-
 ---
 
 ### 6. Determine Categories with an Average Price Over $500
@@ -106,7 +101,6 @@
       cte_avg_price 
   WHERE 
       avg_price > 500;
-
 ---
 
 ### 7. Find Customers with Orders Over $1000
@@ -126,7 +120,6 @@
           WHERE 
               total_amount > 1000
       );
-
 
 ## Summary
 This SQL portfolio showcases skills in complex data analysis, customer and product segmentation, revenue calculation, and employee performance analysis. These queries illustrate my ability to extract valuable business insights using SQL, tailored to support data-driven decision-making in customer, product, and employee management.
