@@ -1,8 +1,9 @@
 # SQL Project: Techcorp Analysis
 
+## Case Study
 ---
 
-## 1. Identify the Top 3 Customers Based on Total Order Amount
+### 1. Identify the Top 3 Customers Based on Total Order Amount
 - **Description**: Retrieved the top 3 customers with the highest total order amount, giving insights into the highest-spending customers.
 - **Query**:
   ```sql
@@ -22,7 +23,7 @@
 
 ---
 
-## 2. Calculate Average Order Amount for Each Customer
+### 2. Calculate Average Order Amount for Each Customer
 - **Description**: Calculated the average order amount for each customer, providing insight into individual purchasing behavior.
 - **Query**:
   ```sql
@@ -39,7 +40,7 @@
 
 ---
 
-## 3. Identify Employees Who Completed More Than 4 Support Tickets
+### 3. Identify Employees Who Completed More Than 4 Support Tickets
 - **Description**: Identified employees who have resolved more than four support tickets, useful for performance tracking.
 - **Query**:
   ```sql
@@ -60,7 +61,7 @@
 
 ---
 
-## 4. Identify Products That Have Never Been Ordered
+### 4. Identify Products That Have Never Been Ordered
 - **Description**: Listed products that have never been ordered, highlighting potential inventory or marketing opportunities.
 - **Query**:
   ```sql
@@ -75,7 +76,7 @@
 
 ---
 
-## 5. Calculate Total Revenue from Product Sales
+### 5. Calculate Total Revenue from Product Sales
 - **Description**: Calculated the total revenue from all product sales to assess overall business performance.
 - **Query**:
   ```sql
@@ -86,7 +87,7 @@
 
 ---
 
-## 6. Determine Categories with an Average Price Over $500
+### 6. Determine Categories with an Average Price Over $500
 - **Description**: Calculated the average product price per category and filtered categories with an average price above $500, offering insight into premium product categories.
 - **Query**:
   ```sql
@@ -108,7 +109,7 @@
 
 ---
 
-## 7. Find Customers with Orders Over $1000
+### 7. Find Customers with Orders Over $1000
 - **Description**: Retrieved customers with at least one order totaling more than $1000, useful for identifying high-value clients.
 - **Query**:
   ```sql
