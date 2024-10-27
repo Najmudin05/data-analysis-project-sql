@@ -1,6 +1,6 @@
 # SQL Project: Techcorp Analysis
 
-## Case Study
+## Exploratory Data Analysis (EDA)
 ---
 
 ### 1. Identify the Top 3 Customers Based on Total Order Amount
